@@ -35,13 +35,13 @@ docker run -d backup/cron
 Attach to the running container :
 
 ```shell
-docker exec -it /bin/sh
+docker exec -it <name-of-the-container> /bin/sh
 ```
 
 Follow the instructions to init gdrive (https://github.com/odeke-em/drive/blob/master/README.md#initializing) :
 
 ```shell
-drive init /root/backups/
+gdrive init /root/backups/
 ```
 
 Go to the url and copy paste the token
