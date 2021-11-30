@@ -2,7 +2,7 @@
 
 Small and simple Go Alpine image to backup odoo postgres database and filestore to google drive.
 
-## What does it do ?
+## What it does ?
 
 cron a script with logs to docker engine that :
 - curl the /web/database/backup of your odoo instance
